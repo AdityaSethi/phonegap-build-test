@@ -1,0 +1,188 @@
+/* Space out content a bit */
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: lightgrey;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  background: white;
+  height: 41px;
+}
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.btn{
+  background-color: white;
+  color: #999999;
+}
+.nav-pills > li:hover, .btn:hover{
+  border-radius: 0;
+  background-color: #333333;
+  color: white;
+}
+
+.selected-tab{
+  background-color: #333333;
+}
+
+/* Supporting marketing content */
+
+.marketing {
+  margin: 40px 0;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+
+  .header {
+    background-color: white;
+    height: 41px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.glyphicon:empty{
+  width: auto;
+}
+
+.custom .panel{
+  min-height: 60px;
+  background-color: #343535 !important;
+  border-bottom: 2px solid #222222;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  border-color: none !important;
+}
+
+.custom .panel-default > .panel-heading{
+  background-color: #343535;
+  color: #D0CCC7 !important;
+  font-size: 16px !important;
+  min-height: 60px;
+  line-height: 60px;
+}
+
+.custom .panel-default > .panel-heading span{
+  line-height: 36px;
+}
+
+.custom .panel-default > .panel-heading i{
+  margin-top: 10px;
+}
+
+.custom .panel-collapse{
+  background-color: #222222;
+}
+
+.custom .panel-default > .panel-heading + .panel-collapse .panel-body{
+  border-top-color: #222222;
+}
+
+container{
+  background-color: #343535;
+  padding: 0;
+}
+
+.custom{
+  margin-bottom: 20px;
+}
+
+.custom .panel-body{
+  color: #D0CCC7 !important;
+}
+
+.touch-action{
+  -ms-touch-action: none;
+}
+
+.drag-drop-holder{
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+.custom-thumbnail{
+  position: relative;
+  float: left;
+  width: 100%;
+  border: 1px dashed #D0CCC7;
+  height: 60px;
+  background: none;
+}

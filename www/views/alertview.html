@@ -1,0 +1,35 @@
+<div ng-include="'views/navbar.html'"></div>
+<div class='custom'>
+	<accordion close-others="oneAtATime">
+		<accordion-group is-open="isopen">
+	    <accordion-heading>
+	        My Checklist <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-right': isopen, 'glyphicon-chevron-down': !isopen}"></i>
+	    </accordion-heading>
+	    This is just some content to illustrate fancy headings.
+	  </accordion-group>
+	  <accordion-group is-open="isopen1">
+	    <accordion-heading>
+	        Overlap Assignment <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-right': isopen1, 'glyphicon-chevron-down': !isopen1}"></i>
+	    </accordion-heading>
+	    This is just some content to illustrate fancy headings.
+	  </accordion-group>
+	    <accordion-group is-open="isopen2">
+	    <accordion-heading>
+	        Empty Assignments <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-right': isopen2, 'glyphicon-chevron-down': !isopen2}"></i>
+	    </accordion-heading>
+	    This is just some content to illustrate fancy headings.
+	  </accordion-group>
+	    <accordion-group is-open="isopen3">
+	    <accordion-heading>
+	        Z2 Request / Megan Smith <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-right': isopen3, 'glyphicon-chevron-down': !isopen3}"></i>
+	    </accordion-heading>
+	    This is just some content to illustrate fancy headings.
+	  </accordion-group>  
+		<accordion-group is-open="isopen3">
+	    <accordion-heading>
+	        Shift End / Mauricio Delgado <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-right': isopen3, 'glyphicon-chevron-down': !isopen3}"></i>
+	    </accordion-heading>
+	    This is just some content to illustrate fancy headings.
+	  </accordion-group>
+	</accordion>	
+</div>
